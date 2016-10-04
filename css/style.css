@@ -47,7 +47,7 @@
   color: #FFF9F8;
 }
 
-      .container {
+.container {
   max-width: 800px;
   margin: -10px auto 0;
   background-color: #fff;
@@ -70,7 +70,7 @@
 .icon_list ul li {
   float: left;
   text-align: center;
-  width:200px ;
+  width:300px ;
 }
  
  .main_disc {
@@ -84,30 +84,30 @@
 .contact_form {
   clear: both;
 }
-      footer {
-        border-top: 1px solid#e7e7e7;
-        background-color: #f8f8f8;
-        text-align: center;
-      }
+footer {
+  border-top: 1px solid#e7e7e7;
+  background-color: #f8f8f8;
+  text-align: center;
+}
       
-      .copyright {
-        padding: 20px 0;
-        font-size: 12px;
-        color: #666;
-      }
+.copyright {
+  padding: 20px 0;
+  font-size: 12px;
+  color: #666;
+}
       
-      @media (max-width: 768px) {
-        body {
-          font-size: 12px;
-        }
-        h1 {
-          font-size: 30px;
-        }
-        h2 {
-          font-size: 24px;
-        }
-        .panel-title {
-          font-size: 14px;
-        }
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+       }
+  h1 {
+    font-size: 30px;
       }
+  h2 {
+    font-size: 24px;
+  }
+  .panel-title {
+    font-size: 14px;
+  }
+}
      
