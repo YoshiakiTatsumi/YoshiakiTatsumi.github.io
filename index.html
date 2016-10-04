@@ -3,16 +3,105 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="discription" content="買いたい人から買える、交流型物販販売サイト、havvy【ハビー】">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Havvy</title></title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- オリジナルCSS読み込み -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome読み込み -->
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Havvy</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+               <li><a href="access.html">Access</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <!--　▼ ジャンボトロン　 -->
+    <div class="jumbotron">
+      <div class="main_picture_container">
+        <h1>思わず耳打ちしたくなるそんな毎日を</h1>
+        もしも、あの服を着て、あの本を読んで、あの場所にいたら
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a>
+      </div>
+    </div>
+<!--　▲ ジャンボトロン　 -->
+    
+    <div class="icon_list">
+      <ul>
+      <li>好きなこと<br>
+        <i class="fa fa-camera-retro fa-3x" aria-hidden="true"></i><br>
+	     </li>
+	     <li>思い出したこと<br>
+          <i class="fa fa-coffee fa-3x" aria-hidden="true"></i><br>
+      </li>
+	     <li>挑戦したいこと<br>
+	         <i class="fa fa-shopping-bag fa-3x" aria-hidden="true"></i><br>
+	     </li>
+      </ul>
+    </div>
+<div class="main_disc">
+<article class="main_discription">
+  <h1>買うまでも、買ってからも</h1>
+  <dl>
+    <dt>聞きたいこと</dt>
+      <dd>実際に使っている人に質問ができます。</dd>
+    <dt>見たいこと</dt>
+      <dd>不安な点が解消できます。</dd>
+    <dt>知りたいこと</dt>
+      <dd>買ってからも使い方が相談できます</dd>
+    </dl>
+</article>      
+</div>
+
+  <form class="contact_form">
+    <h1>お問い合わせ</h1>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <textarea class="form-control" rows="3"></textarea>
+  
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+     <a href="https://twitter.com/share" class="twitter-share-button" data-text="Havvy" data-lang="ja" data-dnt="true">ツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>   
+    <footer>
+　　　<div class="copyright">&copy; 2016 Havvy.</div>
+    </footer>
   </body>
 </html>
